@@ -1,0 +1,25 @@
+SAMOSTATNA PRACA:
+1.  Vytvorte novy projekt s nazvom blog_priezvisko
+2.  Vytvorte nasledujuce podstranky
+    *   index - stranka home, bude obsahovat sekcie: napr. Sport, Politika, Moda a pod nazvom 
+		  		   sekcie budu 3 nahodne clanky z danej sekcie
+    *   contact - stranka s kontaktnym formularom, pripadne mapa, resp, socialne siete, telefon
+    *   articles
+        *   index - stranka kde budu vsetky clanky aj s moznostou filtrovania
+        *   [id] - detail konkretneho clanku
+3.  Na hlavicku a patu vytvorte vlastny komponenty, ktoré budú použité na každej podstránke
+    *   hlavicku    - bude obsahovat vlavo logo a vpravo navigaciu: Articles, Contact
+                    - na logo sa musi dat kliknut a nasledne vas presmeruje na stranku home
+    *   patu stranky - bude obsahovat informacie, kto dany projekt vytvoril, teda vase meno
+    *   hlavnu cast - ta sa bude menit na zaklade toho, na ktorej podstranke sa nachadzate
+5.  Vytvorte composable articles, ktory bude obsahovat:
+    *   premenne:
+        *   list -  premenna bude reactive a bude osahovat pole json objektov. Objekt bude 
+						 obsahovat: id, title, text
+    *   funkcie:
+        *   save
+        *   delete
+6.	Na stranke home vypiste vsetky clanky vo forme karticiek, kde bude nadpis a 
+	utrzok clanku, napr. prvych 100 slov, alebo 300znakov. Na karticke bude 
+	aj tlacidlo, po kliknuti na neho vas presmeruje na stranku s detailom clanku
+7.	Na stranke articles/2 vypiste detail clanku.
